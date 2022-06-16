@@ -1,0 +1,135 @@
+a {
+    text-decoration: none;
+}
+
+#content {
+    width: 100%;
+    display: inline-block;
+}
+
+.filterDiv {
+    background-color: white;
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    float: left
+}
+
+.contentDiv {
+    background-color: white;
+    width: 77%;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    float: left
+}
+
+.noBorder {
+    border: none
+}
+
+#sorting>p {
+    color: #f18c44;
+    font-size: 25px;
+}
+
+#offers>p {
+    color: #f18c44;
+    font-size: 25px;
+}
+
+#rating>p {
+    color: #f18c44;
+    font-size: 25px;
+}
+
+.tileContainer {
+    width: 30%;
+    height: 400px;
+    box-shadow: 10px 20px 10px gray;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.tileContainer:hover {
+    transform: scale(1.0);
+}
+
+.tileComponent1 {
+    width: 100%;
+    height: 75%;
+    float: left;
+}
+
+.tileComponent1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.tileComponent2 {
+    width: 100%;
+    height: 25%;
+    margin-left: 0%;
+    margin-top: 0%;
+    float: left;
+}
+
+.componentHeading>a {
+    color: #f18c44;
+    font-size: 15px;
+}
+
+.componentSubHeading {
+    color: gray;
+    font-size: 10px;
+}
+
+.pageSection {
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.pageSection>button {
+    height: 36px;
+}
+
+.componentStar>span {
+    font-size: 200%;
+}
+
+.componentStarSpanYellow {
+    color: yellow;
+}
+
+.componentHeading,
+.componentSubHeading>.pTitle {
+    color: Black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.componentHeading,
+.componentSubHeading>.pOffer {
+    color: green;
+    text-align: center;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.componentHeading,
+.componentSubHeading>.pInfo {
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+}
